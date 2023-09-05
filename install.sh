@@ -70,7 +70,7 @@ function restart_klipper {
 }
 
 function ready {
-    echo "[READY] "
+    echo "[READY] YOU ARE READY "
     
 }
 
