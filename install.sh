@@ -70,8 +70,9 @@ function restart_klipper {
 }
 
 function ready {
-    echo "[INSTALL SUCCESFULL] YOU´R READY"
-}    
+    echo "[READY] "
+    
+}
 
 printf "\n======================================\n"
 echo "- Autotune TMC install script -"
