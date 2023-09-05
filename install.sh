@@ -49,7 +49,7 @@ function link_extension {
 
 function restart_klipper {
     echo "[POST-INSTALL] Restarting Klipper..."
-    sudo systemctl restart klipper
+    sudo systemctl restart klipper-1
 }
 
 
