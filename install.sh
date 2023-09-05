@@ -69,6 +69,9 @@ function restart_klipper {
     
 }
 
+function ready {
+    echo "[INSTALL SUCCESFULL] YOU´R READY"
+}    
 
 printf "\n======================================\n"
 echo "- Autotune TMC install script -"
@@ -80,3 +83,5 @@ preflight_checks
 check_download
 link_extension
 restart_klipper
+ready
+
